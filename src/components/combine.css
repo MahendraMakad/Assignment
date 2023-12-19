@@ -1,0 +1,93 @@
+.home {
+    display: block;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.home h1 {
+    margin-top: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+.home .details {
+    padding: 20px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 20px;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    height: 100px;
+    border: 2px solid sandybrown;
+    border-radius: 10px;
+}
+
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+
+a:visited {
+    color: purple;
+}
+
+
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+
+a:active {
+    color: #0056b3;
+}
+
+.bmi {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.bmi h1 {
+    margin: 20px;
+}
+
+.bmi input {
+    display: inline-block;
+    margin: 10px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.bmi button {
+    padding: 10px 5px;
+    margin: 20px;
+    width: 150px;
+}
